@@ -2,6 +2,7 @@
   "name": "ez-json-store",
   "version": "1.0.0",
   "description": "Store and retrieve JSON from a file.",
+  "repository": "tdb-alcorn/ez-json-store",
   "main": "store.js",
   "scripts": {
     "test": "mocha"
@@ -10,7 +11,7 @@
     "json",
     "store"
   ],
-  "author": "tdb.alcorn@gmail.com",
+  "author": "Tom Alcorn <tdb.alcorn@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^3.2.0"
