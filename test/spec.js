@@ -2,7 +2,7 @@ var path = require("path");
 var fs = require("fs");
 var assert = require("assert");
 
-var JSONStore = require("../store.js").JSONStore;
+var JSONStore = require("../store.js");
 
 var p = path.resolve("test.json");
 var s = new JSONStore(p);

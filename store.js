@@ -59,6 +59,4 @@ function JSONStore(storePath) {
     this.destroy = destroy;
 };
 
-module.exports = {
-    JSONStore: JSONStore,
-};
+module.exports = JSONStore;
